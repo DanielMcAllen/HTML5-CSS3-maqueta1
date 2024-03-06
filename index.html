@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1 | Master en CSS</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="logotipo">
+        </div>
+        <h1><a href="index.html">MASTER EN CSS</a></h1>
+    </header>
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="javascript:void(0)">Inicio</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Contenido</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Requisitos</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Lenguajes</a>
+                <!-- menú desplegable -->
+                <ul>
+                    <li><a href="javascript:void(0)">HTML</a></li>
+                    <li><a href="javascript:void(0)">CSS</a></li>
+                    <li><a href="javascript:void(0)">Javascript</a></li>
+                    <li><a href="javascript:void(0)">PHP</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Frameworks</a>
+                <!-- menú desplegable -->
+                <ul>
+                    <li><a href="javascript:void(0)">Bootstrap 5</a></li>
+                    <li><a href="javascript:void(0)">Angular</a></li>
+                    <li><a href="javascript:void(0)">Laravel</a></li>
+                    <li><a href="javascript:void(0)">Symfony</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Proyectos</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">El Instructor</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Reseñas</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Blog</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Contacto</a>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+    </nav>
+    <!-- CONTENEDOR PRINCIPAL (CONTIENE SIDEBAR Y MAIN) -->
+    <div id="container">
+        <!-- BARRA LATERAL (sidebar) -->
+        <aside id="aside">
+            <section class="aside-block">
+                <div class="aside-section">
+                    <h3>Iniciar Sesión</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Contraseña:</label>
+                            <input type="password" name="password" id="pass">
+                        </div>
+                        <button type="submit">Ingresar</button>
+                    </form>
+                    <div class="vinculos">
+                        <a href="javascript:void(0)">Zona de alumnos</a>
+                        <a href="javascript:void(0)">Zona de profesores</a>
+                        <a href="javascript:void(0)">Acceso a calificaciones</a>
+                    </div>
+                </div>
+                <div class="aside-section">
+                    <h3 class="color1">Aula Virtual 1</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Contraseña:</label>
+                            <input type="password" name="password" id="pass">
+                        </div>
+                        <button type="submit">Ingresar</button>
+                    </form>
+                </div>
+                <div class="aside-section">
+                    <h3 class="color2">Aula Virtual 2</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Contraseña:</label>
+                            <input type="password" name="password" id="pass">
+                        </div>
+                        <button type="submit">Ingresar</button>
+                    </form>
+                </div>
+                <div class="aside-section">
+                    <h3>Enlaces de Interés</h3>
+                    <div class="vinculos">
+                        <ul class="square-list">
+                            <li><a href="javascript:void(0)">Máster en Javascript</a></li>
+                            <li><a href="javascript:void(0)">Máster en PHP</a></li>
+                            <li><a href="javascript:void(0)">Máster en Frameworks JS</a></li>
+                            <li><a href="javascript:void(0)">Máster en Webs Full Stack</a></li>
+                            <li><a href="javascript:void(0)">https://www.youtube.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="aside-block">
+                <div class="aside-section">
+                    <h3>Frase del Día</h3>
+                    <p>Disciplina es hacer lo que tenemos que hacer cuando lo tenemos que hacer para ser lo que queremos
+                        ser :)</p>
+                </div>
+            </section>
+        </aside>
+        <!-- CONTENIDO PRINCIPAL (main) -->
+        <main id="main">
+            <div class="block">
+                <section class=".section">
+                    <div class="section-title">
+                        <h2>Noticias de Front-End</h2>
+                    </div>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                </section>
+            </div>
+            <div class="block">
+                <section class=".section">
+                    <div class="section-title">
+                        <h2 class="color2">Noticias de Back-End</h2>
+                    </div>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                </section>
+            </div>
+            <div class="block">
+                <section class=".section">
+                    <div class="section-title">
+                        <h2 class="color3">Noticias del Instructor</h2>
+                    </div>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                    <article class="article">
+                        <p><span class="symbol">a</span> <a href="javascript:void(0)">Título de la entrada</a> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Harum, vitae. Eligendi ea, reprehenderit explicabo eaque iusto sint iste tempora ad illo
+                            accusamus cupiditate labore dignissimos pariatur blanditiis voluptatem! Laboriosam,
+                            praesentium!</p>
+                        <p class="timestamp">[23-02-2024:Daniel]</p>
+                    </article>
+                </section>
+            </div>
+            <p class="history"><a href="javascript:void(0)">[ver histórico de noticias]</a></p>
+        </main>
+        <div class="clearfix"></div>
+    </div>
+    <footer id="footer">
+        <p>Desarrollado por Daniel Valdez &copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
